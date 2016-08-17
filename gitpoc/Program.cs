@@ -9,7 +9,8 @@ namespace gitpoc
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello");
+            
+            Console.WriteLine("hello zip exception type of " + typeof(Ionic.Zip.BadPasswordException));
             Console.ReadKey();
         }
     }
